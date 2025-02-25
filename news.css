@@ -1,0 +1,303 @@
+
+@font-face {
+    font-family: "vazir";
+    src: url("../fonts/vazir/Vazir-Medium-FD-WOL.woff") format("woff2"),
+
+}
+
+
+html,
+body{
+  overflow-x: hidden; 
+  margin: 1.5rem;
+  direction: rtl;
+  font-family: "vazir";
+}
+
+
+
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+
+
+
+
+
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    background-color: #AF0404;
+    border-radius: 20px;
+
+}
+
+.nav-sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 1.5rem;
+}
+
+.nav-content{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.nav-content img{
+    width: 100px;
+}
+
+.nav-title{
+    color: whitesmoke;
+
+}
+
+.nav-sec button{
+    border: transparent;
+    color: #FF0000;
+    background-color: whitesmoke;
+    font-size: 2rem;
+    border-radius: 10px;
+}
+
+.nav-sec button:hover{
+    background-color: #FF0000;
+    color: #414141;
+   
+}
+
+
+.nav-sec2{
+    margin: 1rem 1.5rem;
+    display: flex;
+    gap: 1rem;
+    
+
+}
+
+.nav-sec2 a{
+    color: whitesmoke;
+}
+
+.nav-sec2 a:hover{
+    color:#414141;
+
+}
+
+
+@media screen and (max-width:700px) {
+
+    .nav-sec2{
+        display: none;
+    }
+    
+}
+
+
+.section-1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+
+}
+
+.section-1 img{
+    min-width: 250px;
+    width: 50%;
+    border-radius: 20px;
+}
+
+@media screen and (max-width:700px) {
+    .section-1{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-1 img{
+        width: 100%;
+    }
+    
+}
+.section-2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+    margin-top: 4rem;
+}
+
+.section-2 h4{
+    max-width:200px;
+
+}
+
+.section-2 img{
+    width: 200px;
+    border-radius: 20px;
+}
+
+
+
+.sidebar {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;    
+    margin-top: 3rem;
+
+}
+
+.ad {
+    background: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.ad img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.one{
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.hot-news{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    border-radius: 10px;
+
+}
+
+.news-section {
+    width: 100%;
+    background: whitesmoke;
+    margin-top: 8rem;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.news-header {
+    background:#AF0404;
+    color: white;
+    padding: 10px;
+    text-align: right;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.news-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.news-item {
+    display: flex;
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    align-items: center;
+}
+
+.news-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.news-content h3 {
+    font-size: 14px;
+    margin: 0;
+    color: #414141;
+}
+
+.news-content p {
+    font-size: 12px;
+    color: #444444;
+    margin-top: 5px;
+}
+
+.last-container{
+    background-color: whitesmoke;
+    text-align: center;
+    
+}
+
+footer{
+    margin-top: 5rem;
+    background-color: #414141;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.footer-img img{
+    width: 100px;
+}
+
+
+.info{
+    width:33%;
+}
+.access{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.access a{
+    color: whitesmoke;
+}
+.access a:hover{
+    color: #AF0404;
+}
+
+footer h2{
+    color: #FF0000;
+}
+footer p{
+    color:whitesmoke ;
+}
+
+.footer-img{
+    width: 300px;
+    display: flex;
+    gap: 2rem;
+}
+
+
+@media screen and (max-width:700px){
+
+    footer{
+        display:inline-block;
+    }
+
+    .info{
+        width:100%;
+    }
+    .content-footer{
+        display: none;
+    }
+    
+}
+
+
+
+
+    
